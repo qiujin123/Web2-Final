@@ -364,6 +364,13 @@ hr {
   background-color: #E4D185;
 }
 
+ul {
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -403,8 +410,46 @@ textarea {
     Header
 ============= */
 /* =============
-    Footer
+   Footer
 ============= */
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 45px;
+}
+footer #footer-content ul {
+  display: flex;
+  justify-content: center;
+}
+footer #footer-content ul li {
+  margin: 0 10px;
+}
+footer #footer-content ul li a:link,
+footer #footer-content ul li a:visited {
+  color: #fff;
+  transition: 0.25s;
+  font-size: 1.875rem;
+}
+footer #footer-content ul li a:hover,
+footer #footer-content ul li a:active {
+  color: #E4D185;
+}
+@media (min-width: 992px) {
+  footer #footer-content ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+footer #footer-content h1 {
+  font-size: 0.6875rem;
+}
+@media (min-width: 992px) {
+  footer #footer-content h1 {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 /* =============
     Section 1
 ============= */

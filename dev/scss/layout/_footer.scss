@@ -1,3 +1,49 @@
 /* =============
-    Footer
+   Footer
 ============= */
+ 
+footer {
+    color: $white;
+    text-align: center;
+    padding: 45px;
+  
+  
+    #footer-content {
+        ul {
+            display: flex;
+            justify-content: center;
+  
+            li {
+                margin: 0 10px;
+  
+                a:link,
+                a:visited {
+                    color: $white;
+                    transition: 0.25s;
+                    font-size: rem-calc(30);
+                }
+  
+                a:hover,
+                a:active {
+                    color: $gold;
+                }
+            }
+  
+            @include lg {
+                display: flex;
+                justify-content: flex-start;
+                ;
+            }
+        }
+  
+        h1 {
+            font-size: rem-calc(11);
+  
+            @include lg {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+ }
+ 
