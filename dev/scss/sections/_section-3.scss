@@ -1,3 +1,55 @@
 /* =============
     Section 3
 ============= */
+
+#section-3 {
+
+    @include lg {
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-3-lock .";
+    }
+
+    #section-3-lock {
+
+        @include md {
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        @include lg {
+            grid-area: section-3-lock;
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+
+        aside {
+            background-image: url("../img/section-3/location.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 497px;
+
+            @include lg {
+                height: 660px;
+            }
+
+            @include xl {
+                background-position: -265px 0px;
+            }
+        }
+
+        #section-3-container {
+            display: grid;
+            grid-template-columns: 10px auto 10px;
+            grid-template-areas: ". section-3 .";
+            background-color: #18233E;
+
+
+            #section-3-content {
+                grid-area: section-3;
+            }
+
+        }
+    }
+}

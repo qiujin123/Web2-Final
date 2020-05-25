@@ -1,3 +1,53 @@
 /* =============
     Section 2
 ============= */
+
+#section-2 {
+
+    aside {
+        img {
+            width: 100%;
+        }
+    }
+
+    hr {
+        width: 215px;
+
+        @include md {
+            width: 508px;
+        }
+
+        @include lg {
+            width: 732px;
+        }
+    }
+
+    h2 {
+        text-align: center;
+
+    }
+
+    p {
+        text-align: center;
+        
+
+    }
+
+    #section-2-container {
+        display: grid;
+        grid-template-columns: 20px auto 20px;
+        grid-template-areas: ". section-2 .";
+
+        @include md {
+            grid-template-columns: 50px auto 50px;
+        }
+
+        @include lg {
+            grid-template-columns: 100px auto 100px;
+        }
+
+        #section-2-content {
+            grid-area: section-2;
+        }
+    }
+}

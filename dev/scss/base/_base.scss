@@ -2,4 +2,15 @@
     Base
 ============= */
 
+body {
+    background-color: #081523;
+    color: $white;
+}
 
+hr {
+    border-width: 0px;
+    border-radius: 10px;
+    height: 3px;
+    background-color: $gold;
+    
+}

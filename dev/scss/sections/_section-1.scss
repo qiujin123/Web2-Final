@@ -1,3 +1,59 @@
 /* =============
     Section 1
 ============= */
+
+#section-1 {
+    background-image: url('../img/section-1/hero1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 432px;
+    
+
+    @include lg {
+        height: 576px;
+    }
+
+    @include xl {
+    }
+
+    h1 {
+        z-index: 1;
+    }
+
+    .container {
+        text-align: center;
+        display: flex;
+        height: 432px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        @include lg {
+            height: 576px;
+            position: relative;
+
+        }
+    }
+
+    .color-overlay {
+        width: 100%;
+        height: 100%;
+        background: $black;
+        opacity: 40%;
+        position: absolute;
+
+        @include md {}
+
+        @include lg {
+            height: 576px;
+        }
+
+        @include xl {
+            height: 100%;
+        }
+
+
+
+    }
+
+}

@@ -352,9 +352,29 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: #081523;
+  color: #fff;
+}
+
+hr {
+  border-width: 0px;
+  border-radius: 10px;
+  height: 3px;
+  background-color: #E4D185;
+}
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Mukta", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Kanit", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -388,18 +408,164 @@ textarea {
 /* =============
     Section 1
 ============= */
+#section-1 {
+  background-image: url("../img/section-1/hero1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 432px;
+}
+@media (min-width: 992px) {
+  #section-1 {
+    height: 576px;
+  }
+}
+#section-1 h1 {
+  z-index: 1;
+}
+#section-1 .container {
+  text-align: center;
+  display: flex;
+  height: 432px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media (min-width: 992px) {
+  #section-1 .container {
+    height: 576px;
+    position: relative;
+  }
+}
+#section-1 .color-overlay {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 40%;
+  position: absolute;
+}
+@media (min-width: 992px) {
+  #section-1 .color-overlay {
+    height: 576px;
+  }
+}
+@media (min-width: 1200px) {
+  #section-1 .color-overlay {
+    height: 100%;
+  }
+}
+
 /* =============
     Section 2
 ============= */
+#section-2 aside img {
+  width: 100%;
+}
+#section-2 hr {
+  width: 215px;
+}
+@media (min-width: 768px) {
+  #section-2 hr {
+    width: 508px;
+  }
+}
+@media (min-width: 992px) {
+  #section-2 hr {
+    width: 732px;
+  }
+}
+#section-2 h2 {
+  text-align: center;
+}
+#section-2 p {
+  text-align: center;
+}
+#section-2 #section-2-container {
+  display: grid;
+  grid-template-columns: 20px auto 20px;
+  grid-template-areas: ". section-2 .";
+}
+@media (min-width: 768px) {
+  #section-2 #section-2-container {
+    grid-template-columns: 50px auto 50px;
+  }
+}
+@media (min-width: 992px) {
+  #section-2 #section-2-container {
+    grid-template-columns: 100px auto 100px;
+  }
+}
+#section-2 #section-2-container #section-2-content {
+  grid-area: section-2;
+}
+
 /* =============
     Section 3
 ============= */
+@media (min-width: 992px) {
+  #section-3 {
+    display: grid;
+    grid-template-columns: auto 1200px auto;
+    grid-template-areas: ". section-3-lock .";
+  }
+}
+@media (min-width: 768px) {
+  #section-3 #section-3-lock {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 #section-3-lock {
+    grid-area: section-3-lock;
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+#section-3 #section-3-lock aside {
+  background-image: url("../img/section-3/location.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 497px;
+}
+@media (min-width: 992px) {
+  #section-3 #section-3-lock aside {
+    height: 660px;
+  }
+}
+@media (min-width: 1200px) {
+  #section-3 #section-3-lock aside {
+    background-position: -265px 0px;
+  }
+}
+#section-3 #section-3-lock #section-3-container {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". section-3 .";
+  background-color: #18233E;
+}
+#section-3 #section-3-lock #section-3-container #section-3-content {
+  grid-area: section-3;
+}
+
 /* =============
     Section 4
 ============= */
 /* =============
     Section 5
 ============= */
+#section-5 ul #poster {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#section-5 #section-5-container {
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". section-5 .";
+}
+#section-5 #section-5-content {
+  grid-area: section-5;
+}
+
 /* =============
     Section 6
 ============= */
