@@ -1,3 +1,38 @@
 /* =============
     Section 9
 ============= */
+
+#section-9 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: ". section-9 .";
+
+    #section-9-content {
+        grid-area: section-9;
+
+        ul {
+            display: grid;
+            grid-area: section-9;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+
+            @include md {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+            img {
+                display: block;
+                width: 50%;
+                margin: auto;
+                
+            
+            }
+        }
+    }
+
+    h2 {
+        text-align: center;
+        padding: 20px;
+        
+    }
+}

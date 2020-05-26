@@ -285,7 +285,7 @@
 		},
 	"/deploy/img/section-9/1.png": {
 		"ft": 32768,
-		"iS": 51498,
+		"iS": 3332,
 		"oA": 0,
 		"oAP": "/deploy/img/section-9/1.png",
 		"oF": 0,
@@ -296,7 +296,7 @@
 		},
 	"/deploy/img/section-9/2.png": {
 		"ft": 32768,
-		"iS": 7562,
+		"iS": 2899,
 		"oA": 0,
 		"oAP": "/deploy/img/section-9/2.png",
 		"oF": 0,
@@ -307,7 +307,7 @@
 		},
 	"/deploy/img/section-9/3.png": {
 		"ft": 32768,
-		"iS": 10883,
+		"iS": 3017,
 		"oA": 0,
 		"oAP": "/deploy/img/section-9/3.png",
 		"oF": 0,
@@ -316,19 +316,20 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-9/4.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/section-9/4.svg",
+	"/deploy/img/section-9/4.png": {
+		"ft": 32768,
+		"iS": 2795,
+		"oA": 0,
+		"oAP": "/deploy/img/section-9/4.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+		"oT": 1,
+		"q": 100
 		},
 	"/deploy/img/section-9/5.png": {
 		"ft": 32768,
-		"iS": 8473,
+		"iS": 5277,
 		"oA": 0,
 		"oAP": "/deploy/img/section-9/5.png",
 		"oF": 0,
@@ -339,7 +340,7 @@
 		},
 	"/deploy/img/section-9/6.png": {
 		"ft": 32768,
-		"iS": 30419,
+		"iS": 6375,
 		"oA": 0,
 		"oAP": "/deploy/img/section-9/6.png",
 		"oF": 0,
@@ -350,7 +351,7 @@
 		},
 	"/deploy/img/section-9/7.png": {
 		"ft": 32768,
-		"iS": 9547,
+		"iS": 3813,
 		"oA": 0,
 		"oAP": "/deploy/img/section-9/7.png",
 		"oF": 0,
@@ -361,7 +362,7 @@
 		},
 	"/deploy/img/section-9/8.png": {
 		"ft": 32768,
-		"iS": 5375,
+		"iS": 3059,
 		"oA": 0,
 		"oAP": "/deploy/img/section-9/8.png",
 		"oF": 0,
@@ -598,21 +599,22 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/design/assets/logo-mastercard-mobile.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/design/assets/logo-mastercard-mobile.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/design/assets/lol-logo-rendered-hi-res.png": {
 		"ft": 32768,
 		"iS": 84760,
 		"oA": 0,
 		"oAP": "/design/assets/lol-logo-rendered-hi-res.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/design/assets/mastercard-white-230x143.png": {
+		"ft": 32768,
+		"iS": 6080,
+		"oA": 0,
+		"oAP": "/design/assets/mastercard-white-230x143.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

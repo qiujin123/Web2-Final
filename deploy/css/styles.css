@@ -664,6 +664,10 @@ footer #footer-content h1 {
 /* =============
     Section 6
 ============= */
+#section-6 h2 {
+  text-align: center;
+}
+
 /* =============
     Section 7
 ============= */
@@ -673,3 +677,31 @@ footer #footer-content h1 {
 /* =============
     Section 9
 ============= */
+#section-9 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: ". section-9 .";
+}
+#section-9 #section-9-content {
+  grid-area: section-9;
+}
+#section-9 #section-9-content ul {
+  display: grid;
+  grid-area: section-9;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+@media (min-width: 768px) {
+  #section-9 #section-9-content ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+#section-9 #section-9-content ul img {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+#section-9 h2 {
+  text-align: center;
+  padding: 20px;
+}
