@@ -1,3 +1,57 @@
 /* =============
     Section 8
 ============= */
+#section-8 {
+
+    @include lg {
+        padding: 25px;
+    }
+
+
+    #section-8-background {
+        background-color: #18233E;
+    }
+    
+    #section-8-teams {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: ". section-8 .";
+
+        ul {
+            grid-area: section-8;
+            display: grid;
+            gap: 20px;
+            margin: 0px;
+
+
+            @include md {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        li {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    
+
+    h2{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+
+    #section-8-container {
+        display: grid;
+        grid-template-columns: 15px auto 15px;
+        grid-template-areas: ". section-8 .";
+    }
+
+    #section-8-content {
+        grid-area: section-8;
+    }
+}

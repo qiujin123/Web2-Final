@@ -1,3 +1,70 @@
 /* =============
     Section 7
 ============= */
+#section-7 {
+
+    @include lg {
+        padding: 25px;
+    }
+
+    #section-7-lock {
+
+        @include md {
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        @include lg {
+            grid-area: section-7-lock;
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        #section-7-cosplay {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-areas: ". section-7 .";
+    
+            ul {
+                grid-area: section-7;
+                display: grid;
+                margin: 0px;
+    
+    
+                @include md {
+                    grid-template-columns: 1fr;
+                }
+    
+            }
+    
+            li {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    
+    
+    
+    
+        h2{
+            text-align: center;
+        }
+    
+        #section-7-container {
+            display: grid;
+            grid-template-columns: 10px auto 10px;
+            grid-template-areas: ". section-7 .";
+            background-color: #18233E;
+    
+    
+            #section-7-content {
+                grid-area: section-7;
+            }
+    
+        }
+
+    }
+
+    
+}
