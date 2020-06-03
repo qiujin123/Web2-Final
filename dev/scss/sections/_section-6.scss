@@ -6,4 +6,17 @@
     h2 {
         text-align: center;
     }
+
+    #section-6-video {
+        display: grid;
+        grid-template-columns: auto;
+        grid-area: ". section-6 .";
+        background-color: #18233E;
+        margin-bottom: 50px;
+        
+    }
+    @include lg {
+        padding: 25px;
+    }
+
 }
