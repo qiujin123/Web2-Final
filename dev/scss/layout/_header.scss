@@ -1,3 +1,72 @@
 /* =============
     Header
 ============= */
+
+header {
+    font-family: 'Kanit', sans-serif;
+    font-size: rem-calc(16);
+    font-weight: 700;
+    background-color: $dark-blue;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 600;
+
+    >div {
+        display: grid;
+        grid-template-areas: "logo burger"
+            "nav nav";
+        grid-template-columns: 80% auto;
+
+        @include lg {
+            grid-template-areas: "logo nav";
+            grid-template-columns: 20% auto;
+        }
+
+        #logo-container {
+            grid-area: logo;
+            padding: 20px;
+
+            .logo {
+                width: 30%;
+
+                @include md {
+                    width: 20%;
+                }
+
+                @include lg {
+                    width: 50%;
+                }
+            }
+        }
+
+        #burger-container {
+            align-items: center;
+            display: flex;
+            grid-area: burger;
+            justify-content: flex-end;
+            padding: 20px;
+
+            @include lg {
+                display: none !important;
+            }
+
+            i {
+                cursor: pointer;
+            }
+        }
+
+        #nav-container {
+            background-color: $dark-blue;
+            display: none;
+            grid-area: nav;
+            padding: 0 20px 0;
+
+            @include lg {
+                background-color: $dark-blue;
+                display: block !important;
+            }
+        }
+    }
+}

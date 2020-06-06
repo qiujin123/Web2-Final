@@ -406,6 +406,37 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul {
+  height: 100%;
+  text-align: right;
+}
+@media (min-width: 992px) {
+  #nav-container ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+#nav-container ul li {
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  #nav-container ul li {
+    align-items: center;
+    display: flex;
+    margin: 0px 30px 0 0;
+  }
+}
+#nav-container ul li a:link,
+#nav-container ul li a:visited {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.25s;
+}
+#nav-container ul li a:hover,
+#nav-container ul li a:active {
+  color: #E4D185;
+}
+
 /* ===================
     Video Player
 =================== */
@@ -436,6 +467,73 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  font-family: "Kanit", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #081523;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 600;
+}
+header > div {
+  display: grid;
+  grid-template-areas: "logo burger" "nav nav";
+  grid-template-columns: 80% auto;
+}
+@media (min-width: 992px) {
+  header > div {
+    grid-template-areas: "logo nav";
+    grid-template-columns: 20% auto;
+  }
+}
+header > div #logo-container {
+  grid-area: logo;
+  padding: 20px;
+}
+header > div #logo-container .logo {
+  width: 30%;
+}
+@media (min-width: 768px) {
+  header > div #logo-container .logo {
+    width: 20%;
+  }
+}
+@media (min-width: 992px) {
+  header > div #logo-container .logo {
+    width: 50%;
+  }
+}
+header > div #burger-container {
+  align-items: center;
+  display: flex;
+  grid-area: burger;
+  justify-content: flex-end;
+  padding: 20px;
+}
+@media (min-width: 992px) {
+  header > div #burger-container {
+    display: none !important;
+  }
+}
+header > div #burger-container i {
+  cursor: pointer;
+}
+header > div #nav-container {
+  background-color: #081523;
+  display: none;
+  grid-area: nav;
+  padding: 0 20px 0;
+}
+@media (min-width: 992px) {
+  header > div #nav-container {
+    background-color: #081523;
+    display: block !important;
+  }
+}
+
 /* =============
    Footer
 ============= */
@@ -649,6 +747,9 @@ footer #footer-content h1 {
 }
 #section-5 h2 {
   text-align: center;
+}
+#section-5 h3 {
+  color: #E4D185;
 }
 #section-5 #section-5-container {
   display: grid;
