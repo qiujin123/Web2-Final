@@ -239,48 +239,48 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-8/team1.jpeg": {
-		"ft": 16384,
-		"iS": 112624,
-		"jF": 0,
+	"/deploy/img/section-8/team1.png": {
+		"ft": 32768,
+		"iS": 66292,
 		"oA": 0,
-		"oAP": "/deploy/img/section-8/team1.jpg",
+		"oAP": "/deploy/img/section-8/team1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-8/team2.jpg": {
-		"ft": 16384,
-		"iS": 357465,
-		"jF": 0,
+	"/deploy/img/section-8/team2.png": {
+		"ft": 32768,
+		"iS": 60342,
 		"oA": 0,
-		"oAP": "/deploy/img/section-8/team2.jpg",
+		"oAP": "/deploy/img/section-8/team2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-8/team3.jpg": {
-		"ft": 16384,
-		"iS": 115037,
-		"jF": 0,
+	"/deploy/img/section-8/team3.png": {
+		"ft": 32768,
+		"iS": 74911,
 		"oA": 0,
-		"oAP": "/deploy/img/section-8/team3.jpg",
+		"oAP": "/deploy/img/section-8/team3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-8/team4.jpg": {
-		"ft": 16384,
-		"iS": 143613,
-		"jF": 0,
+	"/deploy/img/section-8/team4.png": {
+		"ft": 32768,
+		"iS": 68287,
 		"oA": 0,
-		"oAP": "/deploy/img/section-8/team4.jpg",
+		"oAP": "/deploy/img/section-8/team4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/img/section-9/1.png": {

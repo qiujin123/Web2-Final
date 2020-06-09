@@ -4,9 +4,6 @@
 
 #section-2 {
 
-    @include xl{
-        grid-template-columns: auto 1200px auto;
-    }
 
     aside {
         img {
@@ -15,14 +12,16 @@
     }
 
     hr {
-        width: 215px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 262px;
 
         @include md {
-            width: 508px;
+            width: 640px;
         }
 
         @include lg {
-            width: 732px;
+            width: 895px;
         }
     }
 
@@ -33,6 +32,18 @@
 
     p {
         text-align: center;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 40px;
+
+        @include md {
+            font-size: 20px;
+        }
+
+        @include lg {
+            font-size: 20px;
+        }
+        
         
 
     }

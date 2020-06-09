@@ -18,7 +18,7 @@
     
     #section-8-teams {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 0px auto 0px;
         grid-template-areas: ". section-8 .";
 
         ul {

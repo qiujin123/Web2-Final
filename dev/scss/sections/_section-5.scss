@@ -4,9 +4,7 @@
 
 #section-5 {
 
-    @include xl{
-        grid-template-columns: auto 1200px auto;
-    }
+    
 
     @include md {
         padding: 25px;

@@ -6,15 +6,19 @@ footer {
     color: $white;
     text-align: center;
     padding: 45px;
+
   
   
     #footer-content {
+        
         ul {
             display: flex;
             justify-content: center;
+            margin: 20px 0px 20px;
   
             li {
-                margin: 0 10px;
+                margin: 0 15px;
+
   
                 a:link,
                 a:visited {
@@ -27,19 +31,31 @@ footer {
                 a:active {
                     color: $gold;
                 }
+
+                
+            }
+            @include md {
+                display: flex;
+                justify-content: flex-start;
+                
             }
   
             @include lg {
                 display: flex;
                 justify-content: flex-start;
-                ;
+                
             }
 
-            
+        
         }
 
         h5 {
             font-size: rem-calc(12);
+
+            @include md {
+                display: flex;
+                justify-content: flex-end;
+            }
   
             @include lg {
                 display: flex;
