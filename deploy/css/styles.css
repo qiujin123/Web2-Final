@@ -469,7 +469,7 @@ textarea {
 ============= */
 header {
   font-family: "Kanit", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 700;
   background-color: #081523;
   left: 0;
@@ -538,7 +538,7 @@ header > div #nav-container ul {
 }
 header > div #nav-container ul li {
   padding: 20px;
-  margin: 5px;
+  margin: 1px;
   background-color: #18233E;
   border-style: solid;
   border-width: 2px;
@@ -684,60 +684,60 @@ footer #footer-content h5 {
   color: #000;
   transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
-#section-1 #flex-container {
+#section-1 #section-1-flex-container {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
-#section-1 #flex-container #circle-1 {
+#section-1 #section-1-flex-container #circle-1 {
   border: 2px solid #fff;
   border-radius: 30px;
-  margin: 80px 5px 0 5px;
+  margin: 50px 5px 0 5px;
   width: 10px;
   height: 10px;
 }
 @media (min-width: 768px) {
-  #section-1 #flex-container #circle-1 {
+  #section-1 #section-1-flex-container #circle-1 {
     margin: 50px 5px 0 5px;
   }
 }
 @media (min-width: 992px) {
-  #section-1 #flex-container #circle-1 {
+  #section-1 #section-1-flex-container #circle-1 {
     margin: 100px 5px 0 5px;
   }
 }
-#section-1 #flex-container #circle-2 {
+#section-1 #section-1-flex-container #circle-2 {
   border: 2px solid #fff;
   background-color: #fff;
   border-radius: 30px;
-  margin: 80px 5px 0 5px;
+  margin: 50px 5px 0 5px;
   width: 10px;
   height: 10px;
 }
 @media (min-width: 768px) {
-  #section-1 #flex-container #circle-2 {
+  #section-1 #section-1-flex-container #circle-2 {
     margin: 50px 5px 0 5px;
   }
 }
 @media (min-width: 992px) {
-  #section-1 #flex-container #circle-2 {
+  #section-1 #section-1-flex-container #circle-2 {
     margin: 100px 5px 0 5px;
   }
 }
-#section-1 #flex-container #circle-3 {
+#section-1 #section-1-flex-container #circle-3 {
   border: 2px solid #fff;
   border-radius: 30px;
-  margin: 80px 5px 0 5px;
+  margin: 50px 5px 0 5px;
   width: 10px;
   height: 10px;
 }
 @media (min-width: 768px) {
-  #section-1 #flex-container #circle-3 {
+  #section-1 #section-1-flex-container #circle-3 {
     margin: 50px 5px 0 5px;
   }
 }
 @media (min-width: 992px) {
-  #section-1 #flex-container #circle-3 {
+  #section-1 #section-1-flex-container #circle-3 {
     margin: 100px 5px 0 5px;
   }
 }
@@ -765,6 +765,17 @@ footer #footer-content h5 {
 }
 #section-2 h2 {
   text-align: center;
+  font-size: 35px;
+}
+@media (min-width: 768px) {
+  #section-2 h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #section-2 h2 {
+    font-size: 50px;
+  }
 }
 #section-2 p {
   text-align: center;
@@ -825,14 +836,15 @@ footer #footer-content h5 {
   }
 }
 #section-3 #section-3-lock aside {
-  background-image: url("../img/section-3/location.jpg");
+  background-image: url("../img/section-3/location.png");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   height: 497px;
 }
 @media (min-width: 992px) {
   #section-3 #section-3-lock aside {
-    height: 660px;
+    height: 800px;
   }
 }
 #section-3 #section-3-lock #section-3-container {
@@ -843,6 +855,60 @@ footer #footer-content h5 {
 }
 #section-3 #section-3-lock #section-3-container #section-3-content {
   grid-area: section-3;
+}
+#section-3 #section-3-lock h2 {
+  font-size: 35px;
+  text-align: left;
+  margin: 30px 0px 30px 50px;
+}
+@media (min-width: 768px) {
+  #section-3 #section-3-lock h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 #section-3-lock h2 {
+    margin: 50px 0px 80px 50px;
+    font-size: 50px;
+  }
+}
+#section-3 #section-3-lock ul {
+  margin-right: 0;
+  padding-left: 0;
+  list-style: none;
+}
+#section-3 #section-3-lock ul > li {
+  align-items: center;
+  display: flex;
+  margin: 0px 20px 30px 50px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+@media (min-width: 768px) {
+  #section-3 #section-3-lock ul > li {
+    margin: 0px 30px 40px 50px;
+  }
+}
+@media (min-width: 992px) {
+  #section-3 #section-3-lock ul > li {
+    margin: 0px 30px 80px 50px;
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+#section-3 #section-3-lock ul li:before {
+  content: "";
+  border: 1px solid #E4D185;
+  background-color: #E4D185;
+  border-radius: 100%;
+  width: 1px;
+  height: 1px;
+  color: #E4D185;
+  display: inline-block;
+  padding: 5px;
+  line-height: 1;
+  margin-right: 20px;
 }
 
 /* =============

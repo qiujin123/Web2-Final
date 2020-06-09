@@ -52,15 +52,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/section-3/location.jpg": {
-		"ft": 16384,
-		"iS": 434304,
-		"jF": 0,
+	"/deploy/img/section-3/location.png": {
+		"ft": 32768,
+		"iS": 164690,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/location.jpg",
+		"oAP": "/deploy/img/section-3/location.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/img/section-4/gold.png": {
