@@ -3,6 +3,10 @@
 ============= */
 #section-8 {
 
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
     @include lg {
         padding: 25px;
     }

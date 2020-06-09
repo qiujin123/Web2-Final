@@ -3,6 +3,10 @@
 ============= */
 #section-6 {
 
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
     h2 {
         text-align: center;
     }

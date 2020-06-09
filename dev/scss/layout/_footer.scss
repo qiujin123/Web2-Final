@@ -34,16 +34,20 @@ footer {
                 justify-content: flex-start;
                 ;
             }
+
+            
         }
-  
-        h1 {
-            font-size: rem-calc(11);
+
+        h5 {
+            font-size: rem-calc(12);
   
             @include lg {
                 display: flex;
                 justify-content: flex-end;
             }
         }
+  
+        
     }
  }
  

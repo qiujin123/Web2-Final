@@ -3,6 +3,10 @@
 ============= */
 
 #section-1 {
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
     background-image: url('../img/section-1/hero1.jpg');
     background-position: center;
     background-size: cover;

@@ -565,11 +565,11 @@ footer #footer-content ul li a:active {
     justify-content: flex-start;
   }
 }
-footer #footer-content h1 {
-  font-size: 0.6875rem;
+footer #footer-content h5 {
+  font-size: 0.75rem;
 }
 @media (min-width: 992px) {
-  footer #footer-content h1 {
+  footer #footer-content h5 {
     display: flex;
     justify-content: flex-end;
   }
@@ -583,6 +583,11 @@ footer #footer-content h1 {
   background-position: center;
   background-size: cover;
   height: 432px;
+}
+@media (min-width: 1200px) {
+  #section-1 {
+    grid-template-columns: auto 1200px auto;
+  }
 }
 @media (min-width: 992px) {
   #section-1 {
@@ -627,6 +632,11 @@ footer #footer-content h1 {
 /* =============
     Section 2
 ============= */
+@media (min-width: 1200px) {
+  #section-2 {
+    grid-template-columns: auto 1200px auto;
+  }
+}
 #section-2 aside img {
   width: 100%;
 }
@@ -671,10 +681,14 @@ footer #footer-content h1 {
 /* =============
     Section 3
 ============= */
+@media (min-width: 1200px) {
+  #section-3 {
+    grid-template-columns: auto 1200px auto;
+  }
+}
 @media (min-width: 992px) {
   #section-3 {
     display: grid;
-    grid-template-columns: auto 1200px auto;
     grid-template-areas: ". section-3-lock .";
   }
 }
@@ -718,6 +732,11 @@ footer #footer-content h1 {
 /* =============
     Section 5
 ============= */
+@media (min-width: 1200px) {
+  #section-5 {
+    grid-template-columns: auto 1200px auto;
+  }
+}
 @media (min-width: 768px) {
   #section-5 {
     padding: 25px;
@@ -792,6 +811,11 @@ footer #footer-content h1 {
 /* =============
     Section 6
 ============= */
+@media (min-width: 1200px) {
+  #section-6 {
+    grid-template-columns: auto 1200px auto;
+  }
+}
 #section-6 h2 {
   text-align: center;
 }
@@ -811,6 +835,11 @@ footer #footer-content h1 {
 /* =============
     Section 7
 ============= */
+@media (min-width: 1200px) {
+  #section-7 {
+    grid-template-columns: auto 1200px auto;
+  }
+}
 @media (min-width: 992px) {
   #section-7 {
     padding: 25px;
@@ -863,6 +892,11 @@ footer #footer-content h1 {
 /* =============
     Section 8
 ============= */
+@media (min-width: 1200px) {
+  #section-8 {
+    grid-template-columns: auto 1200px auto;
+  }
+}
 @media (min-width: 992px) {
   #section-8 {
     padding: 25px;
@@ -910,6 +944,11 @@ footer #footer-content h1 {
   display: grid;
   grid-template-columns: auto;
   grid-template-areas: ". section-9 .";
+}
+@media (min-width: 1200px) {
+  #section-9 {
+    grid-template-columns: auto 1200px auto;
+  }
 }
 #section-9 #section-9-content {
   grid-area: section-9;

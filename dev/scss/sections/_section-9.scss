@@ -3,6 +3,11 @@
 ============= */
 
 #section-9 {
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+    
     display: grid;
     grid-template-columns: auto;
     grid-template-areas: ". section-9 .";

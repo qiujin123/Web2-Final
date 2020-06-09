@@ -4,6 +4,10 @@
 
 #section-2 {
 
+    @include xl{
+        grid-template-columns: auto 1200px auto;
+    }
+
     aside {
         img {
             width: 100%;
