@@ -5,6 +5,50 @@
 #section-2 {
 
 
+    #section-2-title {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-areas: ". section-2-title .";
+
+        #line1 {
+            width: 100px;
+            margin: auto;
+
+            @include md {
+                width: 80%;
+
+            }
+
+            @include lg {
+                width: 70%;
+            }
+
+            @include xl {
+                width: 60%;
+            }
+        }
+
+        #line2 {
+            width: 100px;
+            margin: auto;
+
+            @include md {
+                width: 80%;
+
+            }
+
+            @include lg {
+                width: 70%;
+            }
+
+            @include xl {
+                width: 60%;
+            }
+        }
+
+    }
+
+
     aside {
         img {
             width: 100%;
@@ -52,8 +96,8 @@
         @include lg {
             font-size: 20px;
         }
-        
-        
+
+
 
     }
 

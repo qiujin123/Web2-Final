@@ -349,6 +349,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/section-9/7.png": {
+		"ft": 32768,
+		"iS": 3698,
+		"oA": 0,
+		"oAP": "/deploy/img/section-9/7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/section-9/8.png": {
+		"ft": 32768,
+		"iS": 3088,
+		"oA": 0,
+		"oAP": "/deploy/img/section-9/8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,

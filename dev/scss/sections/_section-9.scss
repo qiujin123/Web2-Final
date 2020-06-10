@@ -4,6 +4,49 @@
 
 #section-9 {
 
+    #section-9-title {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-areas: ". section-9-title .";
+
+        #line1 {
+            width: 80px;
+            margin: auto;
+
+            @include md {
+                width: 80%;
+
+            }
+
+            @include lg {
+                width: 70%;
+            }
+
+            @include xl {
+                width: 60%;
+            }
+        }
+
+        #line2 {
+            width: 80px;
+            margin: auto;
+
+            @include md {
+                width: 80%;
+
+            }
+
+            @include lg {
+                width: 70%;
+            }
+
+            @include xl {
+                width: 60%;
+            }
+        }
+
+    }
+
 
     display: grid;
     grid-template-columns: auto;

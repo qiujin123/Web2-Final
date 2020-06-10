@@ -1,69 +1,83 @@
 /* =============
-   Footer
+    Footer
 ============= */
- 
 footer {
-    color: $white;
+    background-color: $dark-blue;
+    background-position: center;
+    color: white;
+    padding: 10px ;
     text-align: center;
-    padding: 45px;
 
-  
-  
     #footer-content {
-        
-        ul {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0px 20px;
-  
-            li {
-                margin: 0 15px;
+        justify-content: space-between;
+        list-style: none;
 
-  
+        h5 {
+            color: white;
+            font-size: 14px;
+            padding-bottom: 5px;
+
+            #white {
+                color: white;
+            }
+
+            @include md {
+                font-size: 14px;
+                padding-right: 10px;
+            }
+
+            @include lg {
+                padding: 0px;
+            }
+        }
+
+        ul {
+            align-items: center;
+            display: flex;
+            font-size: 16px;
+            justify-content: space-evenly;
+            list-style: none;
+            padding: 5px;
+
+            li {
+                padding: 0px 10px;
+
                 a:link,
                 a:visited {
                     color: $white;
-                    transition: 0.25s;
-                    font-size: rem-calc(30);
+                    transition: 0.3s;
                 }
-  
+
                 a:hover,
                 a:active {
                     color: $gold;
                 }
-
-                
-            }
-            @include md {
-                display: flex;
-                justify-content: flex-start;
-                
-            }
-  
-            @include lg {
-                display: flex;
-                justify-content: flex-start;
-                
-            }
-
-        
-        }
-
-        h5 {
-            font-size: rem-calc(12);
-
-            @include md {
-                display: flex;
-                justify-content: flex-end;
-            }
-  
-            @include lg {
-                display: flex;
-                justify-content: flex-end;
             }
         }
-  
-        
+
+        @include md {
+            align-items: center;
+            display: flex;
+            grid-area: footer;
+            height: 100%;
+            padding: 0px;
+            text-align: center;
+        }
+        @include lg {
+            align-items: center;
+            display: flex;
+            grid-area: footer;
+            height: 100%;
+            padding: 0px;
+            text-align: center;
+        }
+
+        @include xl {
+            align-items: center;
+            display: flex;
+            grid-area: footer;
+            height: 100%;
+            text-align: center;
+        }
     }
- }
- 
+}

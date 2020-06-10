@@ -64,7 +64,7 @@ header {
             background-color: $dark-blue;
             display: none;
             grid-area: nav;
-            padding: 0 20px 0;
+            padding: 0px;
 
             @include lg {
                 background-color: $dark-blue;
@@ -75,7 +75,7 @@ header {
 
                 li {
                     padding: 20px;
-                    margin: 1px;
+                    margin: 3px;
                     background-color: $mid-blue;
                     border-style: solid;
                     border-width: 2px;

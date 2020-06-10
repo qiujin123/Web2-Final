@@ -22,3 +22,25 @@ ul{
         list-style: none;
     }
  }
+
+ .show-for-md {
+     display: none;
+     @include md{
+         display: block;
+     }
+ }
+
+ .show-for-sm {
+     display: block;
+    @include md{
+        display: none;
+    }
+
+    @include lg{
+        display: none;
+    }
+
+    @include xl{
+        display: none;
+    }
+ }
