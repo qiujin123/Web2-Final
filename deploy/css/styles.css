@@ -946,8 +946,30 @@ footer #footer-content h5 {
 }
 #section-5 h2 {
   text-align: center;
+  font-size: 35px;
+}
+@media (min-width: 768px) {
+  #section-5 h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #section-5 h2 {
+    font-size: 50px;
+  }
+}
+#section-5 p {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
 }
 #section-5 h3 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: right;
   color: #E4D185;
 }
 #section-5 #section-5-container {
@@ -1125,11 +1147,6 @@ footer #footer-content h5 {
   grid-template-columns: auto;
   grid-template-areas: ". section-9 .";
 }
-@media (min-width: 1200px) {
-  #section-9 {
-    grid-template-columns: auto 1200px auto;
-  }
-}
 #section-9 #section-9-content {
   grid-area: section-9;
 }
@@ -1151,5 +1168,17 @@ footer #footer-content h5 {
 }
 #section-9 h2 {
   text-align: center;
-  padding: 20px;
+  font-size: 35px;
+  margin: 40px 0px;
+}
+@media (min-width: 768px) {
+  #section-9 h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #section-9 h2 {
+    font-size: 50px;
+    margin: 50px 0px;
+  }
 }

@@ -4,10 +4,7 @@
 
 #section-9 {
 
-    @include xl{
-        grid-template-columns: auto 1200px auto;
-    }
-    
+
     display: grid;
     grid-template-columns: auto;
     grid-template-areas: ". section-9 .";
@@ -37,7 +34,18 @@
 
     h2 {
         text-align: center;
-        padding: 20px;
+        font-size: 35px;
+        margin: 40px 0px;
         
+
+        @include md {
+            font-size: 40px;
+        }
+
+        @include lg {
+            font-size: 50px;
+            margin: 50px 0px;
+        }
+
     }
 }
