@@ -9,7 +9,7 @@
         grid-template-columns: 2fr 1fr 2fr;
         grid-template-areas: ". section-5-title .";
 
-        #line1 {
+        #line5 {
             width: 80px;
             margin: auto;
 
@@ -27,7 +27,7 @@
             }
         }
 
-        #line2 {
+        #line6 {
             width: 90px;
             margin: auto;
 
@@ -105,13 +105,15 @@
         line-height: 30px;
     }
 
+
     h3 {
         font-family: "Kanit", sans-serif;
         font-weight: 700;
         font-size: 25px;
         line-height: 30px;
-        text-align: right;
+        text-align: left;
         color: #E4D185;
+
     }
 
     #section-5-container {
@@ -163,7 +165,7 @@
 
     }
 
-    #section-1-flex-container {
+    #section-5-flex-container {
         display: flex;
         justify-content: center;
         flex-direction: row;

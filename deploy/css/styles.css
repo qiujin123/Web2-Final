@@ -746,7 +746,7 @@ footer #footer-content ul li a:active {
   justify-content: center;
   flex-direction: row;
 }
-#section-1 #section-1-flex-container #circle-1 {
+#section-1 #section-1-flex-container #section-1-circle {
   border: 2px solid #fff;
   border-radius: 30px;
   margin: 50px 5px 0 5px;
@@ -754,16 +754,16 @@ footer #footer-content ul li a:active {
   height: 10px;
 }
 @media (min-width: 768px) {
-  #section-1 #section-1-flex-container #circle-1 {
+  #section-1 #section-1-flex-container #section-1-circle {
     margin: 50px 5px 0 5px;
   }
 }
 @media (min-width: 992px) {
-  #section-1 #section-1-flex-container #circle-1 {
+  #section-1 #section-1-flex-container #section-1-circle {
     margin: 100px 5px 0 5px;
   }
 }
-#section-1 #section-1-flex-container #circle-2 {
+#section-1 #section-1-flex-container #section-2-circle {
   border: 2px solid #fff;
   background-color: #fff;
   border-radius: 30px;
@@ -772,16 +772,16 @@ footer #footer-content ul li a:active {
   height: 10px;
 }
 @media (min-width: 768px) {
-  #section-1 #section-1-flex-container #circle-2 {
+  #section-1 #section-1-flex-container #section-2-circle {
     margin: 50px 5px 0 5px;
   }
 }
 @media (min-width: 992px) {
-  #section-1 #section-1-flex-container #circle-2 {
+  #section-1 #section-1-flex-container #section-2-circle {
     margin: 100px 5px 0 5px;
   }
 }
-#section-1 #section-1-flex-container #circle-3 {
+#section-1 #section-1-flex-container #section-3-circle {
   border: 2px solid #fff;
   border-radius: 30px;
   margin: 50px 5px 0 5px;
@@ -789,12 +789,12 @@ footer #footer-content ul li a:active {
   height: 10px;
 }
 @media (min-width: 768px) {
-  #section-1 #section-1-flex-container #circle-3 {
+  #section-1 #section-1-flex-container #section-3-circle {
     margin: 50px 5px 0 5px;
   }
 }
 @media (min-width: 992px) {
-  #section-1 #section-1-flex-container #circle-3 {
+  #section-1 #section-1-flex-container #section-3-circle {
     margin: 100px 5px 0 5px;
   }
 }
@@ -1018,6 +1018,7 @@ footer #footer-content ul li a:active {
   display: grid;
   gap: 20px;
   padding: 25px;
+  margin: auto;
 }
 #section-4 #section-4-tickets ul img {
   width: 100%;
@@ -1068,41 +1069,41 @@ footer #footer-content ul li a:active {
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-areas: ". section-5-title .";
 }
-#section-5 #section-5-title #line1 {
+#section-5 #section-5-title #line5 {
   width: 80px;
   margin: auto;
 }
 @media (min-width: 768px) {
-  #section-5 #section-5-title #line1 {
+  #section-5 #section-5-title #line5 {
     width: 80%;
   }
 }
 @media (min-width: 992px) {
-  #section-5 #section-5-title #line1 {
+  #section-5 #section-5-title #line5 {
     width: 70%;
   }
 }
 @media (min-width: 1200px) {
-  #section-5 #section-5-title #line1 {
+  #section-5 #section-5-title #line5 {
     width: 60%;
   }
 }
-#section-5 #section-5-title #line2 {
+#section-5 #section-5-title #line6 {
   width: 90px;
   margin: auto;
 }
 @media (min-width: 768px) {
-  #section-5 #section-5-title #line2 {
+  #section-5 #section-5-title #line6 {
     width: 80%;
   }
 }
 @media (min-width: 992px) {
-  #section-5 #section-5-title #line2 {
+  #section-5 #section-5-title #line6 {
     width: 70%;
   }
 }
 @media (min-width: 1200px) {
-  #section-5 #section-5-title #line2 {
+  #section-5 #section-5-title #line6 {
     width: 60%;
   }
 }
@@ -1158,7 +1159,7 @@ footer #footer-content ul li a:active {
   font-weight: 700;
   font-size: 25px;
   line-height: 30px;
-  text-align: right;
+  text-align: left;
   color: #E4D185;
 }
 #section-5 #section-5-container {
@@ -1201,12 +1202,12 @@ footer #footer-content ul li a:active {
 #section-5 #section-5-grid #section-5-people ul li img {
   width: 100%;
 }
-#section-5 #section-1-flex-container {
+#section-5 #section-5-flex-container {
   display: flex;
   justify-content: center;
   flex-direction: row;
 }
-#section-5 #section-1-flex-container #circle-1 {
+#section-5 #section-5-flex-container #circle-1 {
   border: 2px solid #E4D185;
   background-color: #E4D185;
   border-radius: 30px;
@@ -1214,49 +1215,49 @@ footer #footer-content ul li a:active {
   width: 20px;
   height: 20px;
 }
-#section-5 #section-1-flex-container #circle-2 {
+#section-5 #section-5-flex-container #circle-2 {
   border: 2px solid #fff;
   border-radius: 30px;
   margin: 0px auto 30px;
   width: 20px;
   height: 20px;
 }
-#section-5 #section-1-flex-container #circle-3 {
+#section-5 #section-5-flex-container #circle-3 {
   border: 2px solid #fff;
   border-radius: 30px;
   margin: 0px auto 30px;
   width: 20px;
   height: 20px;
 }
-#section-5 #section-1-flex-container #circle-4 {
+#section-5 #section-5-flex-container #circle-4 {
   border: 2px solid #fff;
   border-radius: 30px;
   margin: 0px auto 30px;
   width: 20px;
   height: 20px;
 }
-#section-5 #section-1-flex-container #circle-5 {
+#section-5 #section-5-flex-container #circle-5 {
   border: 2px solid #fff;
   border-radius: 30px;
   margin: 0px auto 30px;
   width: 20px;
   height: 20px;
 }
-#section-5 #section-1-flex-container #circle-6 {
+#section-5 #section-5-flex-container #circle-6 {
   border: 2px solid #fff;
   border-radius: 30px;
   margin: 0px auto 30px;
   width: 20px;
   height: 20px;
 }
-#section-5 #section-1-flex-container #circle-7 {
+#section-5 #section-5-flex-container #circle-7 {
   border: 2px solid #fff;
   border-radius: 30px;
   margin: 0px auto 30px;
   width: 20px;
   height: 20px;
 }
-#section-5 #section-1-flex-container #circle-8 {
+#section-5 #section-5-flex-container #circle-8 {
   border: 2px solid #fff;
   border-radius: 30px;
   margin: 0px auto 30px;
@@ -1272,41 +1273,41 @@ footer #footer-content ul li a:active {
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-areas: ". section-6-title .";
 }
-#section-6 #section-6-title #line1 {
+#section-6 #section-6-title #line3 {
   width: 80px;
   margin: auto;
 }
 @media (min-width: 768px) {
-  #section-6 #section-6-title #line1 {
+  #section-6 #section-6-title #line3 {
     width: 80%;
   }
 }
 @media (min-width: 992px) {
-  #section-6 #section-6-title #line1 {
+  #section-6 #section-6-title #line3 {
     width: 70%;
   }
 }
 @media (min-width: 1200px) {
-  #section-6 #section-6-title #line1 {
+  #section-6 #section-6-title #line3 {
     width: 60%;
   }
 }
-#section-6 #section-6-title #line2 {
+#section-6 #section-6-title #line4 {
   width: 80px;
   margin: auto;
 }
 @media (min-width: 768px) {
-  #section-6 #section-6-title #line2 {
+  #section-6 #section-6-title #line4 {
     width: 80%;
   }
 }
 @media (min-width: 992px) {
-  #section-6 #section-6-title #line2 {
+  #section-6 #section-6-title #line4 {
     width: 70%;
   }
 }
 @media (min-width: 1200px) {
-  #section-6 #section-6-title #line2 {
+  #section-6 #section-6-title #line4 {
     width: 60%;
   }
 }
@@ -1541,41 +1542,41 @@ footer #footer-content ul li a:active {
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-areas: ". section-9-title .";
 }
-#section-9 #section-9-title #line1 {
+#section-9 #section-9-title #line7 {
   width: 80px;
   margin: auto;
 }
 @media (min-width: 768px) {
-  #section-9 #section-9-title #line1 {
+  #section-9 #section-9-title #line7 {
     width: 80%;
   }
 }
 @media (min-width: 992px) {
-  #section-9 #section-9-title #line1 {
+  #section-9 #section-9-title #line7 {
     width: 70%;
   }
 }
 @media (min-width: 1200px) {
-  #section-9 #section-9-title #line1 {
+  #section-9 #section-9-title #line7 {
     width: 60%;
   }
 }
-#section-9 #section-9-title #line2 {
+#section-9 #section-9-title #line8 {
   width: 80px;
   margin: auto;
 }
 @media (min-width: 768px) {
-  #section-9 #section-9-title #line2 {
+  #section-9 #section-9-title #line8 {
     width: 80%;
   }
 }
 @media (min-width: 992px) {
-  #section-9 #section-9-title #line2 {
+  #section-9 #section-9-title #line8 {
     width: 70%;
   }
 }
 @media (min-width: 1200px) {
-  #section-9 #section-9-title #line2 {
+  #section-9 #section-9-title #line8 {
     width: 60%;
   }
 }
