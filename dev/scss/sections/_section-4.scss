@@ -1,3 +1,61 @@
 /* =============
-    Section 4
+   Section 4
 ============= */
+
+#section-4{
+
+    #section-4-tickets{
+
+        ul{
+            display: grid;
+            gap: 20px;
+            padding: 25px;
+            img{
+                width: 100%;
+                gap: 20px;
+                
+            }
+            @include md {
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas: 
+                "ticket1 ticket2 ticket3";
+
+            }
+
+            @include lg {
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas: 
+                "ticket1 ticket2 ticket3";
+
+            }
+
+            li{
+
+                padding: 0px 0px;
+                text-align: center;
+                margin-bottom: 10px;
+                background-color: $mid-blue;
+
+                button:hover,
+                button:active{
+                background-color: $gold;
+                color: $black;
+                }
+
+                button {
+                    border: 2px solid $gold;
+                    background-color: $mid-blue;
+                    border-radius: 30px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    color: $white;
+                    width: 184px;
+                    height: 50px;
+                    font-size: 20px;
+                    font-family: "Kanit", sans-serif;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

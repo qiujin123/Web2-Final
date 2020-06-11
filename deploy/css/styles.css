@@ -1012,8 +1012,54 @@ footer #footer-content ul li a:active {
 }
 
 /* =============
-    Section 4
+   Section 4
 ============= */
+#section-4 #section-4-tickets ul {
+  display: grid;
+  gap: 20px;
+  padding: 25px;
+}
+#section-4 #section-4-tickets ul img {
+  width: 100%;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  #section-4 #section-4-tickets ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "ticket1 ticket2 ticket3";
+  }
+}
+@media (min-width: 992px) {
+  #section-4 #section-4-tickets ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "ticket1 ticket2 ticket3";
+  }
+}
+#section-4 #section-4-tickets ul li {
+  padding: 0px 0px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #18233E;
+}
+#section-4 #section-4-tickets ul li button:hover,
+#section-4 #section-4-tickets ul li button:active {
+  background-color: #E4D185;
+  color: #000;
+}
+#section-4 #section-4-tickets ul li button {
+  border: 2px solid #E4D185;
+  background-color: #18233E;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #fff;
+  width: 184px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
+
 /* =============
     Section 5
 ============= */
@@ -1540,7 +1586,7 @@ footer #footer-content ul li a:active {
   display: grid;
   grid-area: section-9;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  gap: 40px;
 }
 @media (min-width: 768px) {
   #section-9 #section-9-content ul {
@@ -1550,12 +1596,12 @@ footer #footer-content ul li a:active {
 #section-9 #section-9-content ul img {
   display: block;
   width: 50%;
-  margin: auto;
+  margin: 20px 50px;
 }
 #section-9 h2 {
   text-align: center;
   font-size: 35px;
-  margin: 40px 0px;
+  margin: 40px 0px 40px;
 }
 @media (min-width: 768px) {
   #section-9 h2 {

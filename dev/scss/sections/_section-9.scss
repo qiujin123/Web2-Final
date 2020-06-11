@@ -59,7 +59,7 @@
             display: grid;
             grid-area: section-9;
             grid-template-columns: repeat(2, 1fr);
-            gap: 50px;
+            gap: 40px;
 
             @include md {
                 grid-template-columns: repeat(4, 1fr);
@@ -68,7 +68,7 @@
             img {
                 display: block;
                 width: 50%;
-                margin: auto;
+                margin: 20px 50px;
                 
             
             }
@@ -78,7 +78,7 @@
     h2 {
         text-align: center;
         font-size: 35px;
-        margin: 40px 0px;
+        margin: 40px 0px 40px;
         
 
         @include md {

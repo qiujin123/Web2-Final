@@ -63,39 +63,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-4/gold.png": {
-		"ft": 32768,
-		"iS": 16251,
-		"oA": 0,
-		"oAP": "/deploy/img/section-4/gold.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/section-4/iron.png": {
-		"ft": 32768,
-		"iS": 14458,
-		"oA": 0,
-		"oAP": "/deploy/img/section-4/iron.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/section-4/platinum.png": {
-		"ft": 32768,
-		"iS": 42156,
-		"oA": 0,
-		"oAP": "/deploy/img/section-4/platinum.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/deploy/img/section-5/p1.png": {
 		"ft": 32768,
 		"iS": 160503,
