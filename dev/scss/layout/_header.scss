@@ -57,7 +57,7 @@ header {
             }
 
 
-    
+
         }
 
         #nav-container {
@@ -70,6 +70,7 @@ header {
                 background-color: $dark-blue;
                 display: block !important;
             }
+
             ul {
                 text-align: center;
 
@@ -80,17 +81,15 @@ header {
                     border-style: solid;
                     border-width: 2px;
                     border-color: $gold;
-                    
+
                     @include lg {
                         background-color: $dark-blue;
                         border-style: none;
                     }
                 }
-                
+
             }
-            
+
         }
     }
 }
-
-

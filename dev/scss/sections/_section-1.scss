@@ -9,7 +9,7 @@
         background: $black;
         opacity: 45%;
         position: absolute;
-        
+
     }
 
     .img-container {
@@ -19,7 +19,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        
+
         @include lg {
             height: 576px;
         }
@@ -56,7 +56,7 @@
     }
 
     a {
-        
+
         color: $white;
         font-size: 1.3em;
         font-family: "kanit", sans-serif;
@@ -134,19 +134,16 @@
             @include md {
                 margin: 50px 5px 0 5px;
             }
-            
+
             @include lg {
                 margin: 100px 5px 0 5px;
             }
         }
     }
 
-    
+
 
 
 
 
 }
-
-
-

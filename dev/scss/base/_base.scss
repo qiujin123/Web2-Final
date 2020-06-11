@@ -12,35 +12,37 @@ hr {
     border-radius: 10px;
     height: 3px;
     background-color: $gold;
-    
+
 }
 
-ul{
+ul {
     padding: 0;
-  
-    li{
+
+    li {
         list-style: none;
     }
- }
+}
 
- .show-for-md {
-     display: none;
-     @include md{
-         display: block;
-     }
- }
+.show-for-md {
+    display: none;
 
- .show-for-sm {
-     display: block;
-    @include md{
+    @include md {
+        display: block;
+    }
+}
+
+.show-for-sm {
+    display: block;
+
+    @include md {
         display: none;
     }
 
-    @include lg{
+    @include lg {
         display: none;
     }
 
-    @include xl{
+    @include xl {
         display: none;
     }
- }
+}

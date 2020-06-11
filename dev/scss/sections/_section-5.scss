@@ -98,8 +98,8 @@
 
     }
 
-    p{
-        font-family: "Mukta",sans-serif;
+    p {
+        font-family: "Mukta", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 30px;
@@ -154,7 +154,7 @@
                 @include lg {
                     grid-template-columns: repeat(4, 1fr);
                 }
-    
+
                 li {
                     img {
                         width: 100%;

@@ -2,35 +2,37 @@
    Section 4
 ============= */
 
-#section-4{
+#section-4 {
 
-    #section-4-tickets{
+    #section-4-tickets {
 
-        ul{
+        ul {
             display: grid;
             gap: 20px;
             padding: 25px;
             margin: auto;
-            img{
+
+            img {
                 width: 100%;
                 gap: 20px;
-                
+
             }
+
             @include md {
                 grid-template-columns: repeat(3, 1fr);
-                grid-template-areas: 
-                "ticket1 ticket2 ticket3";
+                grid-template-areas:
+                    "ticket1 ticket2 ticket3";
 
             }
 
             @include lg {
                 grid-template-columns: repeat(3, 1fr);
-                grid-template-areas: 
-                "ticket1 ticket2 ticket3";
+                grid-template-areas:
+                    "ticket1 ticket2 ticket3";
 
             }
 
-            li{
+            li {
 
                 padding: 0px 0px;
                 text-align: center;
@@ -38,9 +40,9 @@
                 background-color: $mid-blue;
 
                 button:hover,
-                button:active{
-                background-color: $gold;
-                color: $black;
+                button:active {
+                    background-color: $gold;
+                    color: $black;
                 }
 
                 button {
